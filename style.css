@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    margin-top:20px;
+    place-items: center;
+
+}
+.container{
+    width: 700px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+#minus{
+    text-align: center;
+    padding: 0 20px;
+    color: black;
+    font-size: 50px;
+    border: none;
+    background-color: transparent;
+}
+#plus{
+    text-align: center;
+    padding: 0 20px;
+    color: black;
+    font-size: 50px;
+    border: none;
+    background-color: transparent;
+}
+img{
+    width: 300px;
+    height: 170px;
+    margin: 20px;
+}
